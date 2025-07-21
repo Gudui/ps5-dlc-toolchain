@@ -7,7 +7,7 @@ Pick the files → wait → get `{TITLE_ID}DLCMERGED.pkg`.
 
 ```
 1. Download the latest release archive.
-2. Extract and run  ps5-dlc-toolchain.exe  (Win‑x64, self‑contained .NET 8).
+2. Run ps5-dlc-toolchain.exe  (Win‑x64, self‑contained .NET 8).
 3. Choose in order:
        • PATCH.PKG
        • BASE.PKG
