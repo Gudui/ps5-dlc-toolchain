@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+  <EmbeddedResource Include="Scripts\**\*.*" />
+   <EmbeddedResource Include="helpers\**\*.*" />        <!-- executables -->
+</ItemGroup>
+<PropertyGroup>
+  <PublishSingleFile>true</PublishSingleFile>
+  <SelfContained>true</SelfContained>          <!-- pulls in CoreCLR -->
+  <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+  <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+</PropertyGroup>
+
+</Project>
