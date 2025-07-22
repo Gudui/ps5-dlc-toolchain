@@ -12,7 +12,6 @@
   <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <AssemblyName>ps5-dlc-toolchain</AssemblyName>
 </PropertyGroup>
 
 </Project>
